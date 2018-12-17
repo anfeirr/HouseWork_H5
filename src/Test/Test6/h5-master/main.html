@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课程大纲</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/myjs.js"></script>
+    <script src="http://cdn.bootcss.com/masonry/4.1.1/masonry.pkgd.min.js"></script>
+</head>
+<body>
+
+<!-- 菜单部分 -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="fa fa-bars fa-1x"></span>
+            </button>
+        </div>
+        <a class="navbar-brand navbar-collapse collapse" href="index.html">
+            <i class="fa fa-codepen fa-1x"> H5</i></a>
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"> 首页</a> </li>
+                <li><a href="./main.html"> 课程大纲</a></li>
+                <li><a href="./bao.html"> 优惠信息</a></li>
+            </ul>
+            <form action="#" class="navbar-form navbar-left">
+                <input type="text" placeholder="搜索感兴趣的课程" class="form-control">
+                <button type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="./regist.html"><span class="glyphicon glyphicon-user"></span>注册</a></li>
+                <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- 课程大纲 -->
+<div class="container"  id="class">
+    <div class="title text-primary">
+        <h1><i class="fa fa-university" aria-hidden="true"></i> 课程大纲</h1>
+    </div>
+    <div class="class">
+        <div class="class-head">
+            <h3>前端课程</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-html5 icon text-warning" aria-hidden="true"></i>
+                    <h4>HTML5 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>HTML的英文全称为Hyper Text Markup Language，即超文本标记语言。HTML5是HTML的一个新版本。HTML 不是一种编程语言，而是一种标记语言。</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-css3 icon text-primary" aria-hidden="true"></i>
+                    <h4>CSS3 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>
+                        CSS即层叠样式表Cascading StyleSheet。 在网页制作时采用层叠样式表技术，可以有效地对页面的布局、字体、颜色、背景和其它效果实现更加精确的控制。
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-jsfiddle icon text-blue" aria-hidden="true"></i>
+                    <h4>JavaScript 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>
+                        JavaScript，一种高级编程语言，通过解释执行，是一门动态类型，面向对象（基于原型）的直译语言。它已经由ECMA（欧洲电脑制造商协会）通过ECMAScript实现语言的标准化。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="class-head">
+            <h3>框架应用</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-btc icon text-danger" aria-hidden="true"></i>
+                    <h4>BootStrap 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-glide-g icon text-success" aria-hidden="true"></i>
+                    <h4>jQuery 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>
+                        JQuery是继prototype之后又一个优秀的Javascript库。它是轻量级的js库 ，它兼容CSS3，还兼容各种浏览器。核心理念是write less,do more(写得更少,做得更多)。
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-github icon text-primary" aria-hidden="true"></i>
+                    <h4>Git 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>
+                        git是一个分布式版本控制软件，最初由林纳斯·托瓦兹（Linus Torvalds）创作，于2005年以GPL发布。开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="class-head">
+            <h3>全栈开发</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-book icon text-success" aria-hidden="true"></i>
+                    <h4>Node.js 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>HTML的英文全称为Hyper Text Markup Language，即超文本标记语言。HTML5是HTML的一个新版本。HTML 不是一种编程语言，而是一种标记语言。</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-recycle icon text-blue" aria-hidden="true"></i>
+                    <h4>React.js 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>
+                        CSS即层叠样式表Cascading StyleSheet。 在网页制作时采用层叠样式表技术，可以有效地对页面的布局、字体、颜色、背景和其它效果实现更加精确的控制。
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-4">
+                <div class="img-class">
+                    <i class="fa fa-server icon text-orang" aria-hidden="true"></i>
+                    <h4>Meteor 课程大纲</h4>
+                </div>
+                <div class="class-body">
+                    <p>
+                        JavaScript，一种高级编程语言，通过解释执行，是一门动态类型，面向对象（基于原型）的直译语言。它已经由ECMA（欧洲电脑制造商协会）通过ECMAScript实现语言的标准化。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<br>
+
+</body>
+</html>
